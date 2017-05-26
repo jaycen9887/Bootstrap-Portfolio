@@ -1,8 +1,13 @@
 body {
-    background-image: url(../images/cork-wallet.png); 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777;
+    background-image: url(../images/cork-wallet.png);
+    margin: auto;
+    overflow-x: hidden;
 }
 
 nav h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: white;
     padding: 15px 5px;
@@ -12,13 +17,24 @@ nav h1{
     border-bottom: 2px solid #CCC;
 }
 
+nav ul {
+    font-size: 20px;
+}
+
 #about {
     background-color: white;
     margin-bottom: 20px;
 }
 
+#about #text {
+    line-height: 2;
+    font-size: 15px;
+}
+
 #about h1 {
     color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bolder;
 }
 
 #about hr {
@@ -44,6 +60,11 @@ nav h1{
 
 #container {
     width: 70%;
+    margin: auto;
+}
+
+#icons {
+    width: 190px;
     margin: auto;
 }
 
@@ -76,7 +97,7 @@ footer {
         top: -20px;
         text-align: center;
         padding-top: 25px;
-        left: 20px;
+        left: 45px;
 
     }
     
@@ -84,16 +105,22 @@ footer {
         padding-top: 10px;
     }
     
+    nav #links ul {
+        position: relative;
+        right: 90px;
+    }
+    
     #container {
         width: 90%;
-        height: 650px;
+        height: 750px;
         margin: auto;
     }
     
     #about {
-        width: 65%;
+        width: 60%;
         float: left;
         position: absolute;
+        margin-right: 20px;
     }
     #about img {
         width: 65%;
@@ -102,6 +129,7 @@ footer {
     
     #connect {
         float: right;
+        width: 30%;
     }
 }
 
@@ -131,25 +159,95 @@ footer {
     }
     
     #about {
-        width: 55%;
+        width: 60%;
         float: left;
         position: absolute;
+        margin-right: 20px;
     }
+    
     #about img {
         width: 65%;
     }
+    
     #connect {
         float: right;
+        width: 30%;
     }
 }
 
 @media only screen and (max-width: 780px) and (min-width: 640px) {
+    
+    nav {
+        height: 130px;
+    }
+    
+    nav h1 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -20px;
+    }
+    
+    #links {
+        width: 100%;
+        position: relative;
+        top: -20px;
+    }
+    
+    #links ul {
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+        
+    }
+    
+    #links ul li{
+        float: left;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    
+    
+    #container {
+        height: 1190px;
+    }
+    
+    #about {
+        width: 100%;
+        float: none;
+        position: relative;
+        margin-bottom: 25px;
+    }
     #about img {
         width: 100%;
+    }
+    
+    #connect {
+        float: none;
+        width: 100%;
+        position: relative;
     }
 }
 
 @media only screen and (max-width: 640px) {
+    nav h1 {
+        width: 100%;
+        text-align: center;
+    }
+    #links {
+        width: 100%;
+    }
+    
+    #links ul {
+        margin: auto;
+        margin-left: 24%;
+        margin-right: 24%;
+    }
+    
+    nav ul li{
+        float: left;
+    }
+    
     #about img {
         width: 100%;
     }
