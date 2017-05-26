@@ -18,46 +18,47 @@
     
     <body class="index">  
         
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <a class="navbar-brand" href="#"><h1>Jaycen Milling</h1></a>
-                </div>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                    
+                        <div class="navbar-header">
+                          <h1>Jaycen Milling</h1>
+                        </div> <!-- END .navbar-header -->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div id="links">
+                          <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
 
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                          </ul>
+                        </div>
+                  </div><!-- /.container-fluid -->
+                </nav>
 
-              </ul>
-          </div><!-- /.container-fluid -->
-        </nav>
-        
-            <div class="clearfix"></div>
         
         <div id="container">
             <div class="row">
-                <div class="col-md-6" id="about" >
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" id="about">
                     <h1>About Me</h1>
                     <hr>
                     <div id="text">
                         <img width="200"  src="images/wolf.jpg" alt="Wolf Profile">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in nisi et lacus ultrices vulputate. Ut ut lacus aliquet, elementum tortor nec, scelerisque libero. In hac habitasse platea dictumst. Ut eros nisi, congue vitae finibus vitae, ornare id elit. Maecenas lectus tellus, laoreet cursus fringilla a, convallis in libero. Nam venenatis feugiat lectus id sodales. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in nisi et lacus ultrices vulputate. Ut ut lacus aliquet, elementum tortor nec, scelerisque libero. In hac habitasse platea dictumst. Ut eros nisi, congue vitae finibus vitae, ornare id elit. Maecenas lectus tellus, laoreet cursus fringilla a, convallis in libero. Nam venenatis feugiat lectus id sodales. Praesent eros quam, aliquet ac facilisis vitae, sollicitudin ac lorem. Vivamus ac nibh hendrerit, pellentesque enim vel, dictum orci. Nullam massa orci, pulvinar vel lacus ac, facilisis malesuada purus. Ut mattis et odio eu pretium. Maecenas finibus tempor justo eu mollis. 
                         </p>
 
                         <p>
-                            Praesent eros quam, aliquet ac facilisis vitae, sollicitudin ac lorem. Vivamus ac nibh hendrerit, pellentesque enim vel, dictum orci. Nullam massa orci, pulvinar vel lacus ac, facilisis malesuada purus. Ut mattis et odio eu pretium. Maecenas finibus tempor justo eu mollis. 
+                            Praesent eros quam, aliquet ac facilisis vitae, sollicitudin ac lorem. Vivamus ac nibh hendrerit, pellentesque enim vel, dictum orci. Nullam massa orci, pulvinar vel lacus ac, facilisis malesuada purus. Ut mattis et odio eu pretium. Maecenas finibus tempor justo eu mollis. Ut eros nisi, congue vitae finibus vitae, ornare id elit. Maecenas lectus tellus, laoreet cursus fringilla a, convallis in libero. Nam venenatis feugiat lectus id sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in nisi et lacus ultrices vulputate. Ut ut lacus aliquet, elementum tortor nec, scelerisque libero. In hac habitasse platea dictumst.
                         </p>
-                    </div>
-                </div>
+                    </div> <!-- END #TEXT -->
+                </div> <!-- END #ABOUT -->
                 
-                <div class="col-md-2"></div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
                 
-                <div class="col-md-3" id="connect">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12" id="connect">
                     <h1>Connect with Me</h1>
                     <hr>
                     <div id="icons">
@@ -65,16 +66,26 @@
                         <a href="https://www.linkedin.com/in/jaycen-milling-2b7a8851/" target="_blank"><img width="60"  alt="Linkedin" src="images/1494525857_linkedin_square_color.png"></a>
                         <a href="https://stackoverflow.com/users/7992845/jaycen" target="_blank"><img width="60" alt="Stack Overflow" src="images/1494525924_overflow.png"></a> 
                     </div> <!-- END ICONS-->    
-                </div>
-            </div>
+                </div> <!-- END #CONNECT -->
+            </div> <!-- END ROW -->
             
-        </div>
+        </div> <!-- END Container-Fluid -->
         
         <footer class="footer">
             <div class="container">
                 <p> &copy; Copyright 2017 Jaycen Milling</p>
             </div>
         </footer>
+        
+        <script type="text/javascript">
+            function getWindowSize() {
+                var d = document , root = d.documentElement, body = d.body;
+                var wid = window.innerWidth || root.clientWidth || body.clientWidth, hi = window.innerHeight || root.clientHeight || body.clientHeight;
+                return [wid, hi];
+            }
+            
+        
+        </script>
            
     </body>
 </html>

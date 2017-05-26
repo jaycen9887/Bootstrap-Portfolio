@@ -1,0 +1,78 @@
+body {
+    background: url(../images/cork-wallet.png);
+}
+
+nav {
+    height: 50px;
+    
+}
+
+/* contact.html*/
+.contact  #contact {
+    background-color: white;
+    margin: 40px 0;
+    width: 595px;
+    height: 550px;
+    position: absolute;
+    border: solid 1px #CCC;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 110px;
+    }
+
+
+.contact section hr {
+    background-color: #CCC;
+    width: 95%;
+    height: 2px;
+    border: none;
+    margin-bottom: 20px;
+    
+}
+
+.contact section h1 {
+    font-size: 30px;
+    color: #4aaaa5;
+    width: 150px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    float: left;
+    width: 495px;
+    padding-left: 20px;
+    
+}
+
+.contact input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.contact input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contact input[type=submit]:hover{
+    background-color: #777;
+    
+}
+
+.contact input[type=submit]:active {
+    transform: translateY(4px);
+}
+
+/* END contact.html */ 
