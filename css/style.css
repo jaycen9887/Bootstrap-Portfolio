@@ -65,14 +65,81 @@ footer {
 }
 
 @media only screen and (min-width:981px) {
-        #about img {
+    
+    nav {
+        height: 80px;
+    }
+    nav h1 {
+        width: 230px;
+        height: 80px;
+        position: relative;
+        top: -20px;
+        text-align: center;
+        padding-top: 25px;
+        left: 20px;
+
+    }
+    
+    nav #links {
+        padding-top: 10px;
+    }
+    
+    #container {
+        width: 90%;
+        height: 650px;
+        margin: auto;
+    }
+    
+    #about {
         width: 65%;
+        float: left;
+        position: absolute;
+    }
+    #about img {
+        width: 65%;
+    }
+    
+    
+    #connect {
+        float: right;
     }
 }
 
 @media only screen and (max-width: 980px) and (min-width: 769px) {
+    nav {
+        height: 80px;
+    }
+    nav h1 {
+        width: 230px;
+        height: 80px;
+        position: relative;
+        top: -20px;
+        text-align: center;
+        padding-top: 25px;
+        left: 20px;
+
+    }
+    
+    nav #links {
+        padding-top: 10px;
+    }
+    
+    #container {
+        width: 90%;
+        height: 650px;
+        margin: auto;
+    }
+    
+    #about {
+        width: 55%;
+        float: left;
+        position: absolute;
+    }
     #about img {
-        width: 100%;
+        width: 65%;
+    }
+    #connect {
+        float: right;
     }
 }
 
