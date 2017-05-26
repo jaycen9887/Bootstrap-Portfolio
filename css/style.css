@@ -138,170 +138,44 @@ footer {
 
 /* END contact.html */ 
 
-@media only screen and (min-width:981px) {
-    
+@media only screen and (min-width: 993px) {
     nav {
-        height: 80px;
+        height: 60px;
     }
     nav h1 {
-        width: 230px;
-        height: 80px;
         position: relative;
         top: -20px;
-        text-align: center;
-        padding-top: 25px;
-        left: 45px;
-
+        left: 200px;
     }
     
     nav #links {
-        padding-top: 10px;
-    }
-    
-    nav #links ul {
         position: relative;
-        right: 90px;
+        right: 205px;
     }
     
-    #container {
-        width: 90%;
-        height: 750px;
-        margin: auto;
-    }
-    
-    #about {
-        width: 60%;
-        float: left;
-        position: absolute;
-        margin-right: 20px;
-    }
-    #about img {
-        width: 65%;
-    }
-    
-    
-    #connect {
-        float: right;
-        width: 30%;
-    }
 }
 
-@media only screen and (max-width: 980px) and (min-width: 769px) {
+@media only screen and (max-width: 992px) and (min-width: 641px) {
     nav {
-        height: 80px;
+        height: 60px;
     }
     nav h1 {
-        width: 230px;
-        height: 80px;
         position: relative;
         top: -20px;
-        text-align: center;
-        padding-top: 25px;
-        left: 20px;
-
+        left: 115px;
     }
     
     nav #links {
-        padding-top: 10px;
-    }
-    
-    #container {
-        width: 90%;
-        height: 650px;
-        margin: auto;
-    }
-    
-    #about {
-        width: 60%;
-        float: left;
-        position: absolute;
-        margin-right: 20px;
-    }
-    
-    #about img {
-        width: 65%;
-    }
-    
-    #connect {
-        float: right;
-        width: 30%;
-    }
-}
-
-@media only screen and (max-width: 780px) and (min-width: 640px) {
-    
-    nav {
-        height: 130px;
-    }
-    
-    nav h1 {
-        width: 100%;
-        text-align: center;
         position: relative;
-        top: -20px;
+        right: 205px;
     }
     
-    #links {
-        width: 100%;
-        position: relative;
-        top: -20px;
-    }
-    
-    #links ul {
-        width: 100%;
-        margin-left: 24px;
-        margin-right: 24px;
+    #about{
         
     }
     
-    #links ul li{
-        float: left;
-        margin-left: 24px;
-        margin-right: 24px;
-    }
-    
-    
-    #container {
-        height: 1190px;
-    }
-    
-    #about {
-        width: 100%;
-        float: none;
-        position: relative;
-        margin-bottom: 25px;
-    }
-    #about img {
-        width: 100%;
-    }
-    
-    #connect {
-        float: none;
-        width: 100%;
-        position: relative;
-    }
 }
 
-@media only screen and (max-width: 640px) {
-    nav h1 {
-        width: 100%;
-        text-align: center;
-    }
-    #links {
-        width: 100%;
-    }
+@media only screen and (max-width: 640px){
     
-    #links ul {
-        margin: auto;
-        margin-left: 24%;
-        margin-right: 24%;
-    }
-    
-    nav ul li{
-        float: left;
-    }
-    
-    #about img {
-        width: 100%;
-    }
 }
