@@ -85,6 +85,59 @@ footer {
     padding-top: 20px;
 }
 
+/* contact.html*/
+.contact  #contact {
+    background-color: white;
+    border: solid 1px #CCC;
+    
+    }
+
+
+.contact section hr {
+    width: 95%;
+    height: 2px;
+    margin-bottom: 20px;
+    
+}
+
+.contact section h1 {
+    font-size: 30px;
+    color: #4aaaa5;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+.contact form {
+    float: left;
+    
+}
+
+.contact input[type=text], input[type=email], textarea {
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#contact input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#contact input[type=submit]:hover{
+    background-color: #777;
+    
+}
+
+#contact input[type=submit]:active {
+    transform: translateY(4px);
+}
+
+/* END contact.html */ 
+
 @media only screen and (min-width:981px) {
     
     nav {
