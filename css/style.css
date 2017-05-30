@@ -96,3 +96,30 @@ p {
 
 
 /* END CONTACT.HTML*/
+
+
+
+/* PORTFOLIO.HTML*/
+
+#portfolio h1 {
+    color: #4aaaa5;
+}
+
+#portfolio img {
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+}
+
+#portfolio #first{
+    
+}
+
+.project001 {
+    float: left;
+}
+
+#connect {
+    margin-top: 20px;
+}
+

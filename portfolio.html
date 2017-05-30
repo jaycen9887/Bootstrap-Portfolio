@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio</title>
+        <meta charset="utf-8">
+        <title>Projects</title>
         
-        <!-- linking CSS -->
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-
-        <link rel="icon" type="image/png" href="images/jaycen.jpeg">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
         
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     
-    <body class="portfolio"> 
+    <body id="index">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <h1>Jaycen Milling</h1>
+            </div> <!-- END NAVBAR-HEADER -->
+            
+            <div id="links">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> <!-- END LINKS -->
+        </nav>
         
-            <header> 
-                <h1 id="name"> Jaycen Milling </h1>
-                <div id="links"> 
-                    <ul>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li class="border1"><a href="portfolio.html">Portfolio</a></li>
-                        <li class="border2"><a href="index.html">About</a></li>                        
-                    </ul>
-                </div> <!-- END LINKS -->
-            </header>
-            <div id="container">
-                <div id="portfolio">
-                    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="portfolio">
                     <h1>Portfolio</h1>
                         <hr>
                         <div id="first">
                             <div class="project001">
-                                <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
+                                <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="/images/Project001.PNG" alt=""></a>
                                 <h2> Project 001</h2>
                             </div>    
                             <div class="project002">
@@ -54,31 +57,21 @@
                                 <h2> Project 005</h2>
                             </div>    
                     </div>
-                    
-                </section>
-            </div>  <!-- END CONTACT -->  
-            <div id="connect"> 
+                </div> <!-- END portfolio COL-->
+                
+                <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-12 col-xs-12" id="connect">
                     <h1>Connect with Me</h1>
                     <hr>
                     <div id="icons">
                         <a href="https://github.com/jaycen9887" target="_blank"><img width="60" alt="Git Hub" src="images/1494525826_social_media_logo_github.png"></a>
                         <a href="https://www.linkedin.com/in/jaycen-milling-2b7a8851/" target="_blank"><img width="60"  alt="Linkedin" src="images/1494525857_linkedin_square_color.png"></a>
                         <a href="https://stackoverflow.com/users/7992845/jaycen" target="_blank"><img width="60" alt="Stack Overflow" src="images/1494525924_overflow.png"></a> 
-                    </div> <!-- END ICONS-->  
-                </div> <!-- END CONNECT -->  
+                    </div> <!-- END ICONS-->
+                    
+                </div> <!-- END CONNECT COL -->
+                
+            </div> <!-- END ROW-->
+        </div> <!-- END CONTAINER -->
         
-        </div>
-        <footer> &copy; Copyright 2017 Jaycen Milling</footer>
-        
-        <script type="text/javascript">
-            function getWindowSize() {
-                var d = document , root = d.documentElement, body = d.body;
-                var wid = window.innerWidth || root.clientWidth || body.clientWidth, hi = window.innerHeight || root.clientHeight || body.clientHeight;
-                return [wid, hi];
-            }
-            
-            console.log(getWindowSize());
-        
-        </script>
     </body>
 </html>
