@@ -1,47 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Basic Portfolio</title>
+        <meta charset="utf-8">
+        <title>Test</title>
         
-        <!-- ICON -->
-        <link rel="icon" type="image/png" href="images/jaycen.jpeg">
-        
-        <!-- RESET CSS -->
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        
-        <!-- linking CSS -->
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
         
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     
-    <body class="index">  
+    <body id="index">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <h1>Jaycen Milling</h1>
+            </div> <!-- END NAVBAR-HEADER -->
+            
+            <div id="links">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> <!-- END LINKS -->
+        </nav>
         
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                    
-                        <div class="navbar-header">
-                          <h1>Jaycen Milling</h1>
-                        </div> <!-- END .navbar-header -->
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div id="links">
-                          <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-
-                          </ul>
-                        </div>
-                  </div><!-- /.container-fluid -->
-                </nav>
-
-        
-        <div id="container">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12" id="about">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="about">
                     <h1>About Me</h1>
                     <hr>
                     <div id="text">
@@ -53,40 +39,22 @@
                         <p>
                             Praesent eros quam, aliquet ac facilisis vitae, sollicitudin ac lorem. Vivamus ac nibh hendrerit, pellentesque enim vel, dictum orci. Nullam massa orci, pulvinar vel lacus ac, facilisis malesuada purus. Ut mattis et odio eu pretium. Maecenas finibus tempor justo eu mollis. Ut eros nisi, congue vitae finibus vitae, ornare id elit. Maecenas lectus tellus, laoreet cursus fringilla a, convallis in libero. Nam venenatis feugiat lectus id sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in nisi et lacus ultrices vulputate. Ut ut lacus aliquet, elementum tortor nec, scelerisque libero. In hac habitasse platea dictumst.
                         </p>
-                    </div> <!-- END #TEXT -->
-                </div> <!-- END #ABOUT -->
+                    </div> <!-- END TEXT-->
+                </div> <!-- END ABOUT COL-->
                 
-                <div class="col-lg-1 col-md-1"></div>
-                
-                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="connect">
+                <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-12 col-xs-12" id="connect">
                     <h1>Connect with Me</h1>
                     <hr>
                     <div id="icons">
                         <a href="https://github.com/jaycen9887" target="_blank"><img width="60" alt="Git Hub" src="images/1494525826_social_media_logo_github.png"></a>
                         <a href="https://www.linkedin.com/in/jaycen-milling-2b7a8851/" target="_blank"><img width="60"  alt="Linkedin" src="images/1494525857_linkedin_square_color.png"></a>
                         <a href="https://stackoverflow.com/users/7992845/jaycen" target="_blank"><img width="60" alt="Stack Overflow" src="images/1494525924_overflow.png"></a> 
-                    </div> <!-- END ICONS-->    
-                </div> <!-- END #CONNECT -->
-            </div> <!-- END ROW -->
-            
-        </div> <!-- END Container-Fluid -->
+                    </div> <!-- END ICONS-->
+                    
+                </div> <!-- END CONNECT COL -->
+                
+            </div> <!-- END ROW-->
+        </div> <!-- END CONTAINER -->
         
-        <footer class="footer">
-            <div class="container">
-                <p> &copy; Copyright 2017 Jaycen Milling</p>
-            </div>
-        </footer>
-        
-        <script type="text/javascript">
-            
-            function getWindowSize() {
-                var d = document , root = d.documentElement, body = d.body;
-                var wid = window.innerWidth || root.clientWidth || body.clientWidth, hi = window.innerHeight || root.clientHeight || body.clientHeight;
-                return [wid, hi];
-            }
-            
-        
-        </script>
-           
     </body>
 </html>

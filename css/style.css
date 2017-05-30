@@ -1,66 +1,61 @@
-body {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #777;
-    background-image: url(../images/cork-wallet.png);
-    margin: auto;
-    overflow-x: hidden;
+.container {
+    background-color: azure;
 }
-
-nav h1{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
+nav {
+    height: 65px;
+}
+nav h1 {
+    padding: 15px 10px;
+    position: relative;
+    top: -20px;
+    left: 100%;
+    font-size: 30px;
     color: white;
-    padding: 15px 5px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;
-    font-size: 25px;
-    border-bottom: 2px solid #CCC;
+    background-color: #4aaaa5;
 }
 
-nav ul {
-    font-size: 20px;
+#connect {
+    border: 2px solid #CCC;
+    padding-bottom: 20px;
 }
 
-#about {
-    background-color: white;
-    margin-bottom: 20px;
-}
-
-#about #text {
+p {
     line-height: 2;
-    font-size: 15px;
 }
 
-#about h1 {
+
+/* INDEX.HTML */
+
+
+#index #about h1, #index #connect h1 {
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bolder;
+    font-size: 30px;
 }
 
-#about hr {
-    border-width: 2px;
-    border-color: #CCC;
+#index #links {
+    width: 235px;
+    float: right;
+    position: relative;
+    right: 19%;
 }
-#about img {
+
+#index #links ul {
+    margin: auto;
+}
+
+#index #about {
+    background-color: white;
+    height: 100%;
+}
+
+#index #about img {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
-#connect {
-    background-color: white;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-
-#connect hr {
-    border-width: 2px;
-    border-color: #CCC;
-}
-
-#container {
-    width: 70%;
-    margin: auto;
+#connect h1 {
+    text-align: center;
 }
 
 #icons {
@@ -68,114 +63,36 @@ nav ul {
     margin: auto;
 }
 
-#connect h1 {
-    text-align: center;
+/* END INDEX.HTML */
+
+
+
+/*CONTACT.HTML*/
+
+#contact #form h1, #connect h1 {
     color: #4aaaa5;
-    font-size: 25px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;
-}
-
-footer {
-    text-align: center;
-    color: #CCC;
-    background-color: #777;
-    border-top: 4px solid #4aaaa5;
-    height: 70px;
-    padding-top: 20px;
-}
-
-/* contact.html*/
-.contact  #contact {
-    background-color: white;
-    border: solid 1px #CCC;
-    
-    }
-
-
-.contact section hr {
-    width: 95%;
-    height: 2px;
-    margin-bottom: 20px;
-    
-}
-
-.contact section h1 {
     font-size: 30px;
-    color: #4aaaa5;
-    text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif; 
 }
 
-.contact form {
-    float: left;
-    
+#form {
+    background-color: white;
+    height: 100%;
+    padding: 0 40px 40px 40px;
+    margin-bottom: 40px;
+    border: 2px solid #CCC;
 }
 
-.contact input[type=text], input[type=email], textarea {
-    border: 1px solid #CCC;
-    box-sizing: border-box;
-    resize: vertical;
+#contact #links {
+    width: 235px;
+    float: right;
+    position: relative;
+    right: 16%;
 }
 
-#contact input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 30px;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
+#contact #links ul {
+    margin: auto;
 }
 
-#contact input[type=submit]:hover{
-    background-color: #777;
-    
-}
 
-#contact input[type=submit]:active {
-    transform: translateY(4px);
-}
 
-/* END contact.html */ 
-
-@media only screen and (min-width: 993px) {
-    nav {
-        height: 60px;
-    }
-    nav h1 {
-        position: relative;
-        top: -20px;
-        left: 200px;
-    }
-    
-    nav #links {
-        position: relative;
-        right: 205px;
-    }
-    
-}
-
-@media only screen and (max-width: 992px) and (min-width: 641px) {
-    nav {
-        height: 60px;
-    }
-    nav h1 {
-        position: relative;
-        top: -20px;
-        left: 115px;
-    }
-    
-    nav #links {
-        position: relative;
-        right: 205px;
-    }
-    
-    #about{
-        
-    }
-    
-}
-
-@media only screen and (max-width: 640px){
-    
-}
+/* END CONTACT.HTML*/
